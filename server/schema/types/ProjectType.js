@@ -12,7 +12,7 @@ const ProjectTYpe = new GraphQLObjectType({
     status: { type: GraphQLString },
     client: {
       type: ClientType,
-      resolve({ clientId: id }, args) {
+      resolve({ client: id }) {
         return Client.findById(id);
       }
     }
