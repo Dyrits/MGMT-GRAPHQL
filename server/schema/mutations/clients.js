@@ -1,5 +1,6 @@
 const { GraphQLNonNull, GraphQLString, GraphQLID } = require("graphql");
 
+const { Client } = require("../../models");
 const { ClientType } = require("../types");
 
 module.exports = {
