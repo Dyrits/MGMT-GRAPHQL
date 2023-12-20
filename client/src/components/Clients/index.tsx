@@ -3,6 +3,7 @@ import { useQuery } from "@apollo/client";
 // Components
 import Spinner from "../Spinner";
 import ClientRow from "./ClientRow";
+import CreateClient from "./CreateClient.tsx";
 // Types
 import { Client } from "../../types";
 // [GraphQL] Queries
@@ -15,6 +16,8 @@ function Clients() {
   if (error) { return <p>An error occurred....</p>; }
 
   return (
+    <>
+    <CreateClient />
     <div>
       <table className="table table-hover mt-3">
         <thead>
@@ -30,6 +33,7 @@ function Clients() {
         </tbody>
       </table>
     </div>
+     </>
   );
 }
 
