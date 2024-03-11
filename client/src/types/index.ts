@@ -5,4 +5,10 @@ type Client = {
   phone: string;
 }
 
-export type { Client };
+type Project = {
+  id: string | number;
+  name: string;
+  status: string;
+}
+
+export type { Client, Project };

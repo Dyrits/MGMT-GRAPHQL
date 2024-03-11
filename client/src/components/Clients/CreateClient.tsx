@@ -5,9 +5,9 @@ import { FaUser } from "react-icons/fa";
 // Types
 import { Client } from "../../types";
 // [GraphQL] Queries
-import { GET_CLIENTS } from "../../queries";
+import { GET_CLIENTS } from "../../api/queries";
 // [GraphQL] Mutations
-import { CREATE_CLIENT } from "../../mutations";
+import { CREATE_CLIENT } from "../../api/mutations";
 
 
 export default function CreateClient() {

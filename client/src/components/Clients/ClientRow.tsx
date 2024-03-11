@@ -4,9 +4,9 @@ import { FaTrash } from "react-icons/fa";
 // Types
 import { Client } from "../../types";
 // [GraphQL] Queries
-import { GET_CLIENTS } from "../../queries";
+import { GET_CLIENTS } from "../../api/queries";
 // [GraphQL] Mutations
-import { DELETE_CLIENT } from "../../mutations";
+import { DELETE_CLIENT } from "../../api/mutations";
 
 
 function ClientRow({client}: { client: Client }) {
