@@ -17,7 +17,9 @@ function Clients() {
 
   return (
     <div className="py-2">
-    <CreateClient />
+      <div className="d-flex gap-3 mb-4">
+        <CreateClient />
+      </div>
     <div>
       <table className="table table-hover mt-3">
         <thead>
