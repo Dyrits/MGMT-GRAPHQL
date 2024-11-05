@@ -7,8 +7,14 @@ function Header() {
         <div className="container">
           <a className="navbar-brand" href="/">
             <div className="d-flex">
-              <img src={logo} alt="logo" width="30" height="30" className="mr-2" />
-              <p className="m-0">Project MGMT</p>
+              <img
+                src={logo}
+                alt="logo"
+                width="30"
+                height="30"
+                className="mr-2"
+              />
+              <p className="m-0">Project management</p>
             </div>
           </a>
         </div>

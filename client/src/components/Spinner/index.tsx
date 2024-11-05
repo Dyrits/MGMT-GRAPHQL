@@ -5,7 +5,7 @@ function Spinner() {
         <span className="sr-only"></span>
       </div>
     </div>
-  )
+  );
 }
 
 export default Spinner;
